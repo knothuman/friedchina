@@ -3,15 +3,16 @@
     <style>
     h1 {
         font-family:sans-serif;
-        color:rgb(22, 10, 255);
+        color:rgb(242, 70, 70);
         
     }
     table, th, td{
-        border-bottom:1px solid black;
+        border-bottom:2px solid black;
         border-collapse:collapse;
         font-family:sans-serif;
-        color:rgb(213, 8, 255);
+        color:rgb(242, 70, 70);
         border-radius:25px;
+        padding:10px;
     }
     body {
         background-color:rgb(204, 249, 209);
@@ -38,8 +39,6 @@
     width: 150px;
     background-color: #555;
     overflow: auto;
-    
-        
     }
 
     .icon-bar a {
@@ -51,10 +50,14 @@
         color: white;
         margin:7.5px;
     }
-    #heading_before_table{
+    .heading_before_table{
         text-decoration: underline;
         color: rgb(55, 232, 149);
     }
+    img{
+        border-radius:30px;
+    }
+    
     </style>
     
     <body>
@@ -65,11 +68,25 @@
         
         <h1>Menu</h1>
         <hr>
-        <h3 id="heading_before_table">海鲜菜</h3>
+        
+        <table>
+            
+            <h3 class="heading_before_table">厨师的特别</h3>
+            <tr>
+                
+                <td> <img src= "https://leitesculinaria.com/wp-content/uploads/fly-images/77628/tea-smoked-duck-400x400-c.jpg" width= "200"></td>
+                <td>茶熏鸭</td>
+                <td>119.34元</td>
+                
+            </tr>
+            
+        </table>
             <table>
+                <h3 class="heading_before_table">海鲜菜</h3>
                 <tr>
                     <td><img src= "http://thewoksoflife.com/wp-content/uploads/2017/02/sichuan-boiled-fish-6.jpg" width= "200"></td>
                     <td>水煮鱼</td>
+                    <td>125.93元</td>
                 </tr>
             </table>
             
@@ -88,13 +105,36 @@
                     <td>75.37 元</td>
                 </tr>
                 <tr>
-                    <td> <img src="https://www.seriouseats.com/recipes/images/2012/06/20120615-chichis-chinese-pork-belly-dish-primary.jpg" width="200"
-                    </td>
+                    <td> <img src="https://www.seriouseats.com/recipes/images/2012/06/20120615-chichis-chinese-pork-belly-dish-primary.jpg" width="200"</td>
+                    <td>两次煮熟的猪</td>
+                    <td>84.79元</td>
+                </tr>
+            </table>
+            <table>
+                
+                <h3 class="heading_before_table" >汤</h3>
+                <tr>
+                    
+                    <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Ping_SJ_hot_%26_sour_soup.JPG/1200px-Ping_SJ_hot_%26_sour_soup.JPG" width= "200"></td>
+                    <td>酸辣汤</td>
+                    <td>62.81元</td>
+                    
+                </tr>
+                <tr>
+                    
+                    <td><img src="https://www.seriouseats.com/recipes/images/2013/12/20131219-taiwan-eats-beef-noodle-soup-finished.jpg" width= "200"></td>
+                    <td>牛肉面汤</td>
+                    <td>81.65元</td>
+                    
+                </tr>
+                <tr>
+                    
+                    <td><img src="http://jeanetteshealthyliving.com/wp-content/uploads/2011/03/Szechwan-Spicy-Fish-Soup-7.jpg" width="200"></td>
+                    <td>辣鱼汤</td>
+                    <td>81.65元</td>
                     
                 </tr>
             </table>
-            
-        
         <br>
         <div class="icon-bar">
             
