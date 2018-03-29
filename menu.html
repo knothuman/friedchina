@@ -13,6 +13,10 @@
         color:rgb(242, 70, 70);
         border-radius:25px;
         padding:6px;
+        table-layout:fixed;
+    }
+    td{
+        width:33%;
     }
     body {
         background-color:rgb(249, 222, 182);
@@ -59,7 +63,19 @@
         border-radius:30px;
     }
     img:hover{
-        box-shadow:5px 5px grey;
+        box-shadow:4px 4px 4px black;
+        
+    }
+    .other_icon_bar{
+    width: 45%;
+    background-color: #555;
+    overflow: auto;
+    height:45px;
+    
+    }
+    .other_icon_bar a{
+        
+        height:35px;
     }
     
     </style>
@@ -73,9 +89,22 @@
         <h1>Menu</h1>
         <hr>
         
+        <div class="other_icon_bar">
+            
+            <a href = "menu.html#Seafood">海鲜</a>
+            &nbsp;
+            <a href =  "menu.html#Meat_Dishes">肉菜</a>
+            &nbsp;
+            <a href = "menu.html#Soup">汤</a>
+            &nbsp;
+            <a href =  "menu.html#Noodles">面</a>
+            &nbsp;
+            <a href = "menu.html#Fried_Rice">炒饭</a>
+            
+        </div>
         <table>
             
-            <u><h3 class="heading_before_table">厨师的特别</h3></u>
+            <u><h3 class="heading_before_table" id= "Chefs_Special">厨师的特别</h3></u>
             <tr>
                 
                 <td> <img src= "https://leitesculinaria.com/wp-content/uploads/fly-images/77628/tea-smoked-duck-400x400-c.jpg" width= "200"></td>
@@ -87,7 +116,7 @@
         </table>
         <br>
             <table>
-                <u><h3 class="heading_before_table">海鲜菜</h3></u>
+                <u><h3 class="heading_before_table" id= "Seafood">海鲜菜</h3></u>
                 <tr>
                     <td><img src= "http://thewoksoflife.com/wp-content/uploads/2017/02/sichuan-boiled-fish-6.jpg" width= "200"></td>
                     <td>水煮鱼</td>
@@ -97,7 +126,7 @@
             <br>
             <table>
                     
-            <u><h3 class="heading_before_table">肉菜</h3></u>
+            <u><h3 class="heading_before_table" id= "Meat_Dishes">肉菜</h3></u>
             
                 <tr>
                     <td><img src="https://www.bbcgoodfood.com/sites/default/files/recipe_images/recipe-image-legacy-id--15261_12.jpg" width= "200"></td>
@@ -118,7 +147,7 @@
             <br>
             <table>
                 
-                <u><h3 class="heading_before_table" >汤</h3></u>
+                <u><h3 class="heading_before_table" id= "Soup">汤</h3></u>
                 <tr>
                     
                     <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Ping_SJ_hot_%26_sour_soup.JPG/1200px-Ping_SJ_hot_%26_sour_soup.JPG" width= "200"></td>
@@ -143,7 +172,7 @@
             </table>
         <br>
         <table>
-            <h3 class="heading_before_table">面条</h3>
+            <h3 class="heading_before_table" id= "Noodles">面条</h3>
             
             <tr>
                 
@@ -176,7 +205,7 @@
         <br>
         <table>
             
-            <u><h3 class="heading_before_table">炒饭</h3></u>
+            <u><h3 class="heading_before_table" id="Fried_Rice">炒饭</h3></u>
             <tr>
                 
                 <td><img src= "http://www.archanaskitchen.com//images/archanaskitchen/0-Archanas-Kitchen-Recipes/2016/oct-7/Vegetarian_Sichuan_Fried_Rice-1.jpg" width= "200"></td>
